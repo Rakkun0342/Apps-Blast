@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/17a500b7-d342-4d46-80cc-d26c13800942)
+
 # Apps-Blast 📲💥
 
 **Apps-Blast** adalah aplikasi mobile Android yang dirancang khusus untuk mengirim pesan WhatsApp secara banyak ke pelanggan dengan cepat, efisien, dan otomatis.
