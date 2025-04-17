@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".menu.EditTagihanActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_them"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarEditTagihan"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            app:titleTextColor="@color/white" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teks Header"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:padding="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/garis_tepi"
+                android:minHeight="50dp">
+
+                <EditText
+                    android:id="@+id/etTeksHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="top"
+                    android:text="Pelanggan Yth.\n "
+                    android:scrollbars="vertical"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/teksMid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teks Mid"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:padding="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/garis_tepi"
+                android:minHeight="50dp">
+
+                <EditText
+                    android:id="@+id/etTeksMid"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusableInTouchMode="false"
+                    android:enabled="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="top"
+                    android:text="Id Pelanggan : 102042141\nNama Pelanggan : *MUHAMAD JUPRI*\nRincian Tagihan:\n*1. Jan-2024	: Rp7.940*\n*Total Biaya	: Rp7.940*"
+                    android:scrollbars="vertical"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/teksBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teks Bottom"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:padding="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/garis_tepi"
+                android:minHeight="50dp">
+
+                <EditText
+                    android:id="@+id/etTeksBottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="top"
+                    android:hint=""
+                    android:scrollbars="vertical"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/blue_them"
+            android:text="S I M P A N"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:elevation="5dp"
+            app:layout_constraintTop_toBottomOf="@id/teksBottom"/>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

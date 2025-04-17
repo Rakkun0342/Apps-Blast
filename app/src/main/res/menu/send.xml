@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/editPesan"
+        android:title="Kirim Semua"
+        android:visible="false"
+        android:icon="@drawable/edit_24"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/sendWa"
+        android:title="Kirim Semua"
+        android:icon="@drawable/baseline_send_24"
+        />
+
+    <item
+        android:id="@+id/sendWaArcive"
+        android:title="Kirim Ditandai"
+        android:icon="@drawable/baseline_send_and_archive_24"
+        />
+
+    <item
+        android:id="@+id/sendWaNoAcc"
+        android:title="Kirim Sisa"
+        android:icon="@drawable/baseline_send_24"
+        />
+</menu>

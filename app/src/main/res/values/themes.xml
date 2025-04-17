@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BlastJargas" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue_them</item>
+        <item name="colorPrimaryVariant">@color/blue_dark_them</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_them</item>
+        <item name="colorSecondaryVariant">@color/blue_dark_them</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/proxima_nova_font</item>
+        <item name="fontFamily">@font/proxima_nova_font</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="ToolbarColoredBackArrow" parent="Theme.BlastJargas">
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+</resources>
